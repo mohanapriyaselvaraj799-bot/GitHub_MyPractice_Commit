@@ -21,10 +21,11 @@ public class HardAsset1 {
 		String actualtitle = driver.getTitle();
 		Assert.assertEquals(actualtitle, exptitle);
 		System.out.println("Pass");
-		//System.out.println("fail");
+		//pull testing
 		
 		driver.close();
 	}
 	
 
 }
+
