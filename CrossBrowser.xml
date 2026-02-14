@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="3">
+   <test name="Test1" >
+   <parameter name="BROWSER" value="Chrome"></parameter>
+     <classes>
+         <class name="com.ninza.crm.producttestngTest.ProducttestClassTest"/>
+      </classes>
+    </test>
+   <test  name="Test2">
+    <parameter name="BROWSER" value="Edge"></parameter>
+       <classes>
+         <class name="com.ninza.crm.campaigntestngTest.CampaignTestClassTest"/>
+      </classes>
+   </test>
+</suite> <!-- Suite -->

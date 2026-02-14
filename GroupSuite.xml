@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="2">
+  <test  name="Test">
+  <groups>
+    <run>
+     <include name="regression"></include>
+    </run>
+  </groups>
+  <classes>
+  <class name="com.ninza.crm.producttestngTest.ProducttestClassTest"/>
+  </classes>
+  </test>
+  <test name="Test2">
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.ninza.crm.campaigntestngTest.CampaignTestClassTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

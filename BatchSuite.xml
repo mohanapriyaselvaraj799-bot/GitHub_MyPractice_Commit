@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="3">
+<listeners>
+  <listener class-name="listenerUtility.ListenerImplementation"/>
+  </listeners>
+  <test  name="CampaignTest">
+  <groups>
+  <run>
+  <include name="regression"/>
+  <exclude name="smoke"/>
+  </run>
+  </groups>
+  <classes>
+      <class name="com.ninza.crm.campaigntestngTest.CampaignTestClassTest"/>
+   </classes>
+  </test>
+  <test  name="ProductTest">
+  <groups>
+  <run>
+  <include name="regression"/>
+  </run>
+  </groups>
+  <classes>
+  <class name="com.ninza.crm.producttestngTest.ProducttestClassTest"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

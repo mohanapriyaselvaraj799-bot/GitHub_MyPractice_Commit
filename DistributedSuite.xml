@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test1" >
+    <classes>
+       <class name="com.ninza.crm.campaigntestngTest.CampaignTestClassTest"/>
+    </classes>
+  </test> 
+  <test name="Test2" >
+  <classes>
+      <class name="com.ninza.crm.producttestngTest.ProducttestClassTest"/>
+       </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

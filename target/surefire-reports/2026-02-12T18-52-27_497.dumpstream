@@ -1,0 +1,5 @@
+# Created at 2026-02-12T18:52:27.610
+Boot Manifest-JAR contains absolute paths in classpath 'T:\programing\sts-core_java\A20.NinzaCRMFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

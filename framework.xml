@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" threadcount="3">
+  <test  name="CampaignTest">
+  <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="frameworkPractice.MyCampaignTest"/>
+    </classes>
+  </test>
+ <test name="ProductTest">
+ <parameter name="BROWSER" value="Edge"/>
+   <classes>
+     <class name="frameworkPractice.MyProductTest"/>
+   </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
